@@ -1,0 +1,21 @@
+extends ./layouts/index.pug
+
+block content 
+    table(class="table table-bordered w-50")
+        thead
+            tr
+                th ID
+                th Title
+                th Thumbnail
+                th Price
+        tbody
+            each element in data
+                tr
+                    td=element.id
+                    td=element.title
+                    td
+                        img(src=element.thumbnail style="height: 9rem;")
+                    td=element.price
+            else
+                tr
+                    td(colspan="4" class="text-danger text-center") Error: empty list

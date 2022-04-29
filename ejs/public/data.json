@@ -1,0 +1,38 @@
+[
+   {
+      "id": 0,
+      "title": "Samsung Galaxy Z Flip3",
+      "thumbnail": "https://images.fravega.com/f500/6378ae4aa084513db8be004cc70dc660.jpg",
+      "price": 789
+   },
+   {
+      "id": 1,
+      "title": "Samsung S22 Ultra",
+      "thumbnail": "https://www.gizmochina.com/wp-content/uploads/2022/04/Samsung-Galaxy-S22-Ultra-Green-1-1024x904-1024x904.jpg",
+      "price": 999
+   },
+   {
+      "id": 2,
+      "title": "Samsung S21 FE",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0612/1717/7831/products/SAMSUNGS21FE128GB6RAMG-990EDGRAFITE_530x@2x.jpg?v=1644344440",
+      "price": 459
+   },
+   {
+      "id": 3,
+      "title": "Samsung Galaxy Z Fold3",
+      "thumbnail": "https://tiaecuador.vteximg.com.br/arquivos/ids/185006-1000-1000/imagen_2021-10-16_025354.png?v=637699676378700000",
+      "price": 1200
+   },
+   {
+      "id": 4,
+      "title": "Samsung Galaxy A53",
+      "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/ar/2202/gallery/ar-galaxy-a53-5g-a536-sm-a536ezkaaro-531544682?$720_576_PNG$",
+      "price": 329
+   },
+   {
+      "id": 5,
+      "title": "Samsung Galaxy Watch4",
+      "thumbnail": "https://images.fravega.com/f300/8235c1991867e2087cc1d666dbe1c1bc.jpg.webp",
+      "price": 295
+   }
+]

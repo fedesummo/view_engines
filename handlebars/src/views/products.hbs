@@ -1,0 +1,31 @@
+<table class="table table-bordered w-50">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Thumbnail</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each data}}
+            <tr>
+                <td>{{this.id}}</td>
+                <td>{{this.title}}</td>
+                <td>
+                    <img
+                        src="{{this.thumbnail}}"
+                        style="height: 9rem;"
+                    />
+                </td>
+                <td>$ {{this.price}}</td>
+            </tr>
+        {{else}}
+            <tr>
+                <td colspan="4" class="text-danger text-center">
+                    Error: empty list
+                </td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+extends ./layouts/index.pug
+
+block content
+  form(class="w-50" method="post" action="products")
+    div(class="mb-3")
+      label(for="" class="form-label") Title
+      input(type="text" class="form-control" name="title" required placeholder="Type the title here...")
+    div(class="mb-3")
+      label(for="thumbnail" class="form-label") Thumbnail URL
+      input(type="text" class="form-control" name="thumbnail" required placeholder="Type the thumbnail url here...")
+    div(class="mb-3")
+      label(for="price" class="form-label") Price
+      input(type="number" class="form-control" name="price" required placeholder="Type the price here...")
+    button(type="submit" class="btn btn-dark") Send
+    button(type="reset" class="btn btn-dark") Reset
